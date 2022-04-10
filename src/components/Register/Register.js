@@ -1,14 +1,12 @@
 import React from "react";
 
-const Login = () => {
+const Register = () => {
   return (
     <div>
-      <h2>Please Login</h2>
-      <div style={{ margin: "20px" }}>
-        <button>Google Sign In</button>
-      </div>
-
+      <h3>Please Register Now </h3>
       <form>
+        <input type="text" placeholder="Enter Your Name" />
+        <br />
         <input type="email" name="" id="" placeholder="Your Email" />
         <br />
         <input
@@ -18,10 +16,10 @@ const Login = () => {
           placeholder="Your secret password"
         />
         <br />
-        <input type="submit" value="Login" />
+        <input type="submit" value="Register" />
       </form>
     </div>
   );
 };
 
-export default Login;
+export default Register;
